@@ -44,6 +44,7 @@ cd laravel-task-manager
 ```bash
 composer install
 npm install
+npm run dev
 ```
 ### 3.Create Environment File
 ```bash
@@ -59,10 +60,5 @@ php artisan migrate --seed
 ```bash
 php artisan serve
 ```
-
-### 6. (Optional) Compile Assets
-```bash
-npm run dev
- ```
 
 
