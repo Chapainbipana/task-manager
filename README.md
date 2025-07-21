@@ -38,29 +38,31 @@ Follow the steps below to set up the project locally:
 ```bash
 git clone https://github.com/your-username/laravel-task-manager.git
 cd laravel-task-manager
+'''bash
 
-2️⃣ Install Dependencies
+### 2. Install Dependencies
+'''bash
 composer install
 npm install
-3️⃣ Create Environment Filet
+'''bash
+### 3.Create Environment Filet
+'''bash
 cp .env.example .env
 php artisan key:generate
-4️⃣ Configure Database in .env
-Open .env and update the following:
-DB_DATABASE=your_database
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
-5️⃣ Run Migrations and Seeders
+'''bash
 
+ ### 4. Run Migrations and Seeders
+'''bash
 php artisan migrate --seed
-6️⃣ Serve the Project
-
+'''bash
+### 5. Serve the Project
+'''bash
 php artisan serve
-Visit: http://localhost:8000
+'''bash
 
-7️⃣ (Optional) Compile Assets
-
+### 6. (Optional) Compile Assets
+'''bash
 npm run dev
  
-
+'''bash
 
